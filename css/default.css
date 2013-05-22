@@ -1,0 +1,162 @@
+@import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600&subset=latin,latin-ext');
+
+*{
+    font-family: "Source Sans Pro", "Trebuchet MS", sans-serif;
+    color: #efefef;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+html{
+    display:table;
+    height: 100%;
+    width: 100%;
+    background-color: #4B3;
+    background-image: url('../img/logo.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+html, body{
+    margin: 0px;
+}
+
+body{
+    padding-bottom: 150px;
+    padding-left: 5px;
+    display:table-cell; 
+    vertical-align:middle;
+}
+
+.container{
+    padding-right: 150px;
+    max-width: 500px;
+    margin: auto;
+}
+
+input, textarea, select{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    color: #111;
+    font-size: 18px;
+    background: #fff;
+    padding: 5px; 
+    font-weight: 600;
+    -webkit-appearance: caret;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type=submit]{
+    cursor: pointer;
+    width: 100%;
+}
+
+textarea {
+    width: 490px;
+    height: 200px;
+}
+
+select{
+    width: 248px;
+    cursor: pointer;
+    background: url("../img/arrow.png") no-repeat 232px center #fff;
+    display: inline-block;
+}
+
+select, option{
+    color: #111;
+}
+
+optgroup{
+    color: #666;
+}
+
+label{
+    display: block;
+}
+
+h1{
+    font-weight: 300;
+    color: #fff;
+    font-size: 45px;
+    line-height: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer, .footer *{
+    font-size: 13px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    margin-left: 340px;
+    text-align: right;
+}
+
+
+.socials{
+    color: #000 !important;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    min-width: 250px;
+    vertical-align: bottom;
+    display: table;
+    text-align: right;
+    background: #fff;
+    padding: 5px;
+}
+
+#at20mc *{
+    color: #666;
+}
+
+.socials *{
+    color: #000 !important;
+    font-size: 13px;
+}
+
+@media(max-width: 600px){
+    .container{
+        padding: 0px;
+        width: 100%;
+    }
+}
+@media(max-width: 420px){
+    
+    html{
+        background: #006699;
+    }
+    
+    body{
+        padding-bottom: 0px;
+    }
+
+    .footer{
+        margin-left: 5px;
+    }
+    
+    .socials{
+        display: none;
+    }
+}
+
+@media(max-height: 400px){
+    body{
+        display: block;
+    }
+    
+    .socials{
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+    -= README =-
+
+strToMe
+
+Author :    Raphaël
+Website :   http://www.onlinecreation.pro
+Demo :      http://strto.me
+GIT :       https://github.com/onlinecreation/strToMe
+
+    -= Credits =-
+
+QRL is based on 
+• the favicon is from the famfamfam silk icons library 
+    http://www.famfamfam.com/lab/icons/silk/
+
+    -= How to install it =-
+    
+Step 1: 
+    Unzip/place any php script in a document folder of your webserver
+    
+Step 2:
+    Open and fill the config.fillme.php file
+    
+Step 3: 
+    Rename config.fillme.php into config.php
+    
+Step 4: 
+    Try your new online tool !
