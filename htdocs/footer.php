@@ -2,8 +2,8 @@
         <div class="socials">
             <div class="addthis_toolbox addthis_default_style addthis_32x32_style"
                 addthis:url="<?php echo SITE_URL ?>"
-                addthis:title="<?php echo SITE_TITLE ?>"
-                addthis:description="<?php echo SITE_DESCRIPTION; ?>">
+                addthis:title="<?php echo SITE_SOCIAL_NETWORKS_TITLE ?>"
+                addthis:description="<?php echo SITE_SOCIAL_NETWORKS_DESCRIPTION; ?>">
                 <a class="addthis_button_facebook"></a>
                 <a class="addthis_button_twitter"></a>
                 <a class="addthis_button_google_plusone_share"></a>

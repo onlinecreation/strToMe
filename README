@@ -15,7 +15,7 @@ The favicon is from the famfamfam silk icons library
     -= How to install it =-
     
 Step 1: 
-    Unzip/place the php script in a document folder of your webserver
+    Place the content of the htdocs folder into the root folder of your webserver
     
 Step 2:
     Open and fill the config.fillme.php file

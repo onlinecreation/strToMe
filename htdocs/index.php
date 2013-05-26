@@ -1,6 +1,6 @@
 <?php
-require("config.php");
-include("header.php");
+require "config.php" ;
+include "header.php" ;
 ?>
 <a href="<?php echo SITE_URL ?>" ><h1><?php echo SITE_TITLE ?></h1></a>
 <?php if (isset($_SESSION['result'])) { ?>
@@ -82,4 +82,4 @@ include("header.php");
     <input type="submit" value="OK" />
 </form>
 <?php
-include("footer.php");
+include "footer.php";
