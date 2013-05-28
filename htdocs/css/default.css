@@ -59,10 +59,17 @@ textarea {
 }
 
 select{
-    width: 248px;
     cursor: pointer;
-    background: url("../img/arrow.png") no-repeat 232px center #fff;
     display: inline-block;
+}
+
+select#type{
+    width: 148px;
+    background: url("../img/arrow.png") no-repeat 132px center #fff;
+}
+select#to{
+    width: 348px;
+    background: url("../img/arrow.png") no-repeat 332px center #fff;
 }
 
 select, option{
