@@ -1,5 +1,9 @@
 <?php
 
+/**
+ * Main process
+ * @author Raphaël http://www.onlinecreation.fr
+ */
 session_start();
 require("config.php");
 if (isset($_POST["str"]) && is_string($_POST["str"]) && isset($_POST["to"])) {
@@ -48,9 +52,9 @@ if (isset($_POST["str"]) && is_string($_POST["str"]) && isset($_POST["to"])) {
             $result = strtotime($_POST["str"]);
             break;
         case "date(r)":
-            if(strlen($_POST['str'])>0){
+            if (strlen($_POST['str']) > 0) {
                 $result = date("r", $_POST["str"]);
-            }else{
+            } else {
                 $result = date("r");
             }
             break;

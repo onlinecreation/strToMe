@@ -1,4 +1,8 @@
 <?php
+/**
+ * Main UI
+ * @author Raphaël http://www.onlinecreation.pro
+ */
 require "config.php";
 session_start();
 ?>

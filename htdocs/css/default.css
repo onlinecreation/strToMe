@@ -34,6 +34,9 @@ body{
     margin: auto;
 }
 
+/**
+ *  FORM & FILEDS
+ */
 input, textarea, select{
     border: none;
     border-radius: 0;
@@ -84,6 +87,9 @@ label{
     display: block;
 }
 
+/**
+ *  TEXTS
+ */
 h1{
     font-weight: 300;
     color: #fff;
@@ -110,7 +116,9 @@ a{
     text-align: right;
 }
 
-
+/**
+ *  SOCIAL NETWORKS
+ */
 .socials{
     color: #000 !important;
     position: absolute;
@@ -133,6 +141,9 @@ a{
     font-size: 13px;
 }
 
+/**
+ *  RESPONSIVE STUFF
+ */
 @media(max-width: 600px){
     .container{
         padding: 0px;
@@ -140,11 +151,11 @@ a{
     }
 }
 @media(max-width: 420px){
-    
+
     html{
         background: #006699;
     }
-    
+
     body{
         padding-bottom: 0px;
     }
@@ -152,7 +163,7 @@ a{
     .footer{
         margin-left: 5px;
     }
-    
+
     .socials{
         display: none;
     }
@@ -162,7 +173,7 @@ a{
     body{
         display: block;
     }
-    
+
     .socials{
         display: none;
     }

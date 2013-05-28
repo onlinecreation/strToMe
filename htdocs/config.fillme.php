@@ -2,6 +2,7 @@
 
 /*
  * Website settings
+ * @author Raphaël http://www.onlinecreation.pro
  */
 // Main url of the website
 define('SITE_URL', 'http://strto.me');
