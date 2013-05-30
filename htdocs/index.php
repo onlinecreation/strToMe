@@ -32,7 +32,7 @@ session_start();
                     I want to convert, hash, encode, decode or encrypt this text:
                 </label>
                 <textarea name="str" id="str"><?php echo @$_SESSION['str']; ?></textarea>
-                <label for="to">With the PHP function:</label>
+                <label for="to">With the following PHP function:</label>
                 <select name="to" id="to">
                     <?php
                     if (isset($_SESSION["to"])) {
