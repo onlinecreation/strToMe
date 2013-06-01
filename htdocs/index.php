@@ -15,8 +15,8 @@ session_start();
         <meta name="description" content="<?php echo SITE_DESCRIPTION; ?>">
         <meta name="author" content="http://www.onlinecreation.pro">
         <link rel="stylesheet" type="text/css" href="css/default.css" />
-        <link rel="apple-touch-icon" href="img/icon_128.png" />
         <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="/img/icon_128.png" />
     </head>
     <body>
         <div class="container">
