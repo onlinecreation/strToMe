@@ -3,7 +3,7 @@
  * Main UI
  * @author Raphaël http://www.onlinecreation.pro
  */
-require "config.php";
+require 'config.php';
 session_start();
 ?>
 <!DOCTYPE html>
